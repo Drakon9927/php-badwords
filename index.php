@@ -1,5 +1,6 @@
 <?php
 $messaggio = $_GET["messaggio"];
+$lunghezza = strlen($messaggio);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +10,6 @@ $messaggio = $_GET["messaggio"];
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $messaggio ?></h1>
+    <h1><?php echo $lunghezza ?></h1>
 </body>
 </html>
